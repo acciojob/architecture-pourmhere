@@ -5,12 +5,103 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
+  <style>
+        body {
+            width: 1100px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .imageContainer {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .imageContainer img {
+            width: 100%;
+            max-width: 1100px;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #e6e6e6;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 16px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #d9d9d9;
+            text-align: center;
+        }
+        td img {
+            width: 100%;
+            height: auto;
+        }
+        .firstColumn, .lastColumn {
+            width: 200px;
+        }
+        .middleColumn {
+            width: 600px;
+        }
+        .objective {
+            font-weight: bold;
+            text-align: center;
+        }
+        .adContent {
+            font-size: 0.9em;
+            color: #333;
+        }
+        .adContent b {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .learnMore {
+            color: #0066cc;
+            text-decoration: none;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1>Preview :</h1>
 
+    <div class="imageContainer">
+        <img src="https://as2.ftcdn.net/v2/jpg/02/31/69/05/1000_F_231690594_1xpuGVGkzsPIvIVRyRkGLY5Ze11d3yev.jpg" alt="Main Architectural Image">
+    </div>
+
+    <table>
+        <tr>
+            <td class="firstColumn"><img src="https://i.pinimg.com/originals/d0/fa/9d/d0fa9dd5ce1b54adde6805f7845c4c44.jpg"></td>
+            <td class="middleColumn">Unit #5 - Floor Plans<br>
+                A. Kitchen<br>
+                B. Bathroom<br>
+                C. Using "Slabs"<br>
+                D. Georgian Home<br>
+                E. Sketching Assignment #5
+            </td>
+            <td class="lastColumn"><img src="https://images.adsttc.com/media/images/6042/682e/f91c/81a2/6d00/02e4/newsletter/green-architecture-urbanism-05.jpg?1614964770" alt="Image 2"></td>
+        </tr>
+        <tr>
+            <td class="firstColumn adContent"><img scr="https://images.adsttc.com/media/images/6042/682e/f91c/81a2/6d00/02e4/newsletter/green-architecture-urbanism-05.jpg?1614964770" alt="Image 2">
+                <b>HousePlans.com</b>
+                The largest source for quality affordable ready-made house plans. A great place to surf for space planning ideas.<br>
+                <a class="learnMore" href="#">learn more</a>
+            </td>
+            <td class="middleColumn objective">
+				Objective
+                <p>Discuss factors that are important in the design of bedrooms. Plan the size and location of closets for a typical residence. Plan a furniture arrangement for a room. Implement important design considerations for bathrooms. Plan a bathroom that follows solid design principles. Plan the service area of a home by applying good design principles. Design a functional kitchen to meet a family’s needs. Select kitchen appliances that are appropriate for a design. Plan an efficient clothes care center. Describe appropriate dimensions for garage space. Identify the rooms and areas that comprise the living area. Apply design principles to planning a living room. Integrate the furniture in a living room plan. Analyze a dining room using good design principles. Design a functional entry and foyer.</p>
+            </td>
+            <td class="lastColumn adContent"><img scr="https://images.adsttc.com/media/images/6042/682e/f91c/81a2/6d00/02e4/newsletter/green-architecture-urbanism-05.jpg?1614964770" alt="Image 2">
+                 
+                <b>Green Floor</b>
+                FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers with free solutions to their green architectural needs.<br>
+                <a class="learnMore" href="#">learn more</a>
+            </td>
+        </tr>
+    </table>
 </body>
-
 </html>
